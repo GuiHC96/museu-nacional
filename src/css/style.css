@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+    font: 12px;
+}
+
+#container{
+    width: 1080px; height: 100vh;
+   
+    margin: 0 auto;
+   
+}
+
+header{
+    
+   
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header ul{
+    margin-right: 30px;
+
+}
+
+header ul li{
+    display: inline-block;
+    margin: 10px;
+   
+
+    
+}
+
+nav a{
+    font-size: 0.8em;
+    color: rgb(160, 46, 4);
+}
+
+
+
+nav a:hover{
+    border-bottom: 2px solid;
+
+    color: rgb(146, 146, 1);
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#conteudo-central{ 
+    width: 710px;
+    
+
+}
+
+#informacoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+#informacoes h3{
+    margin: 10px 0 10px 0;
+    color: green;
+}
+
+#informacoes-lista{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+#informacoes-lista h3{
+    margin: 10px 0 10px 0;
+    color: green;
+
+}
+
+#exposicoes{width: 310px;}
+#historia{width: 310px;}
+
+#exposicoes li{
+    margin-top: 5px;
+}
+
+#exposicoes a,
+#historia a{
+    line-height: 25px;
+    color: rgb(160, 46, 4);
+}
+
+
+#exposicoes a:hover,
+#historia a:hover{
+    border-bottom: 2px solid;
+    color: rgb(146, 146, 1);
+}
+
+#historia p{
+    line-height: 25px;
+    text-indent: 15px;
+}
+
+
+
+
+
+
+/* conteudo lateral */
+#conteudo-lateral{
+   
+    width: 350px;
+
+}
+
+#visita{
+    background-color: rgb(184, 166, 150);
+    padding: 25px;
+    margin-top: 15px;
+    
+    
+}
+
+#visita h4{
+    line-height: 50px;
+    font-size: 1.3em;
+    color: rgb(156, 55, 18);
+    
+}
+
+#numero{
+    width: 40px;
+    
+}
+
+#date{
+    width: 80px;
+    border: none;
+    font-size: 1em;
+
+}
+
+.botao{
+    width: 100%;
+    background-color: chocolate;
+    color: rgb(109, 30, 2);
+    border: none;
+    height: 40px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(214, 133, 75);
+
+}
+main label{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#galeria{
+    background-color: rgb(224, 200, 178);
+   padding: 20px;
+
+}
+
+#galeria h4{
+    line-height: 50px;
+    font-size: 1.3em;
+    color: rgb(156, 55, 18);
+    margin: 20px;
+}
+
+
+#fotos-galeria{
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  
+
+
+}
+
+
+.foto{
+   
+    background: url(../img/fundo-foto.png) no-repeat;
+   
+    padding: 17px;
+}
+
+/* fim conteudo lateral */
+
+
+footer{
+   
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+footer a{
+    font-weight: 500;
+    color: rgb(228, 128, 61);
+}
+footer a:hover{
+    color: rgb(97, 55, 26);
+    font-weight: 700;
+
+}
+#copy{
+   padding: 30px;
+}
+
+.divisor-rodape{
+    margin: 30px;
+}
